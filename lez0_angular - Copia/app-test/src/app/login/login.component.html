@@ -1,0 +1,30 @@
+
+<div class="centra">
+
+    <div class="form-style">
+        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+            <div class="div-form-style">
+                <mat-form-field appearance="outline">
+                    <mat-label for="name">Nome:</mat-label>
+                    <input id="name" formControlName="username" matInput placeholder="Nome">
+                    <div *ngIf="myForm.get('name')?.invalid && myForm.get('name')?.touched">
+                        Nome obbligatorio.
+                    </div>
+                </mat-form-field>
+            </div>
+            <div class="div-form-style">
+                <mat-form-field appearance="outline">
+                    <mat-label for="password">Password:</mat-label>
+                    <input id="password" formControlName="password" matInput placeholder="Password">
+                    <div *ngIf="myForm.get('password')?.invalid && myForm.get('password')?.touched">
+                        password non valida.
+                    </div>
+                </mat-form-field>
+            </div>
+            
+            <div class="div-form-style">
+                <button mat-raised-button color="primary" type="submit">Invia</button>
+            </div>
+        </form>
+    </div> 
+</div>

@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "password2"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "codiceFiscale": "ABCDEF01G23H456I",
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "dataDiNascita": "1985-05-15T22:00:00.000Z",
+      "azienda": "Azienda S.p.A.",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "codiceFiscale": "JKLMNO01P23Q456R",
+      "nome": "Luigi",
+      "cognome": "Verdi",
+      "dataDiNascita": "1990-08-21T22:00:00.000Z",
+      "azienda": "Tech Solutions",
+      "userId": 2
+    },
+    {
+      "id": "3b9a",
+      "codiceFiscale": "ABCDEF01G23H456I",
+      "nome": "Mario",
+      "cognome": "Bianchi",
+      "dataNascita": "2024-10-14T22:00:00.000Z",
+      "azienda": "Azienda S.p.A.",
+      "userId": "1"
+    }
+  ]
+}
